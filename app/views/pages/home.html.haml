@@ -1,0 +1,49 @@
+.left_pane
+  .event-info{:style => "width: 300px; border: 10px solid #ddd; padding: 10px; margin: 15px auto;"}
+    %h2
+      Events
+    %p
+      %h3 Father's Day Service
+      %br
+      %br
+      %b
+        Turning Our Hearts Toward the Father: Join Us for a special Father's Day Service!
+    .event-banner
+      = image_tag "slide_father'sday2014.jpg", :class => "event_image"
+  .sermon_series-info{:style => "width: 300px; border: 10px solid #ddd; padding: 10px; margin: 15px auto;"}
+    %h2
+      Sermon Series
+    %p
+      %h3 The current sermon series:
+      %br
+      %br
+      %b
+      = image_tag "slide_godslawsrocks.jpg", :style => "width: 250px;"
+
+.middle_pane
+  .banner
+    = image_tag "sheep.jpg", :class => "main_image"
+.right_pane
+  .connect-info{:style => "width: 300px; border: 10px solid #ddd; padding: 10px; margin: 15px auto;"}
+    %h2
+      Connect
+    %h3
+      Sunday Service
+    %p
+      11:00 AM
+      %br
+      940 South Stelling Road, Cupertino, CA 95014
+      408-253-5152
+      %br
+      %br
+      %b Children's Program starts at 11:00AM.
+    %h3
+      Small Groups
+    %p
+      We meet together for weekly bible study and fellowship at various locations around the Bay Area.
+      %br
+      %br
+      See our
+      = link_to 'Connect', connect_url, :style => "color: green"
+      page for more details!
+
